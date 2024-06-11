@@ -61,5 +61,5 @@ public class StrongNumber {
 		StrongNumber sn = new StrongNumber();
 		sn.inputAcceptor();
 	}
+	
 }
-

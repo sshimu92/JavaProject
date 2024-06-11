@@ -1,19 +1,22 @@
-package miniFramework;
+package PageFactory_POM;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {
+import base.ReusableFunctions;
 
-    private static WebDriver driver;
+public class Register {
+
+    WebDriver driver;
+    ReusableFunctions reusablefunctions;
     
 	
-	public LoginPage(WebDriver driver) {
+	public Register(WebDriver driver) {
 		
 		this.driver = driver;
-	    BrowserConfiguration.browserConfig();
+	    this.reusablefunctions = new ReusableFunctions(driver);
 		PageFactory.initElements(driver, this);	
 		
 	}

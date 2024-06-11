@@ -1,4 +1,4 @@
-package basicsJava;
+package BasicsJava;
 
 public class LoopingExercise1 {
 
@@ -20,7 +20,8 @@ public class LoopingExercise1 {
 				if (i % 2 == 0) {
 					continue;
 				}
-				System.out.println(i);
+				
+				   System.out.println(i);
 
 				// int i=10 sum upto 10
 

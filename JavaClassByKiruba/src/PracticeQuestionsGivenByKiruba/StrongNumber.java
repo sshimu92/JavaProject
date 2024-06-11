@@ -2,7 +2,7 @@ package PracticeQuestionsGivenByKiruba;
 
 import java.util.Scanner;
 
-import basicsJava.FactorialNumber;
+import BasicsJava.FactorialNumber;
 
 public class StrongNumber {
 

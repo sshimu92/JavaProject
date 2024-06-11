@@ -1,4 +1,4 @@
-package basicsJava;
+package BasicsJava;
 
 public class EvenNumber {
 
